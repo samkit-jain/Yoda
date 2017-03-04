@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yoda</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="top_text">Control, you must!</string>
+    <string name="button_text">Test your Jedi powers</string>
+</resources>
