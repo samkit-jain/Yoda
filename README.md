@@ -16,6 +16,8 @@ For example, to open firefox browser, say "open Firefox"
 * open \<package-name\><br />
 * turn on wifi<br />
 * turn off wifi<br />
+* shutdown  or  shut down<br />
+* restart  or  reboot<br />
 
 **Note: Tested on Ubuntu 12.04 LTS**
 

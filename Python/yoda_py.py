@@ -31,6 +31,12 @@ while True:
     elif data.lower() == "turn off wifi" or data.lower() == "turn off wi-fi":
     	command = "nmcli nm wifi off"
     	os.system(command)
+    elif data.lower() == "shutdown" or data.lower() == "shut down":
+    	command = "poweroff"
+    	os.system(command)
+    elif data.lower() == "restart" or data.lower() == "reboot":
+    	command = "reboot"
+    	os.system(command)
 
     conn.close()
 
