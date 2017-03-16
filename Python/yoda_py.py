@@ -25,7 +25,13 @@ while True:
     if data[0:4] == "open":
     	command = "gnome-terminal -e '" + data[5:] + "'"
     	os.system(command)
-    
+    elif data.lower() == "turn on wifi" or data.lower() == "turn on wi-fi":
+    	command = "nmcli nm wifi on"
+    	os.system(command)
+    elif data.lower() == "turn off wifi" or data.lower() == "turn off wi-fi":
+    	command = "nmcli nm wifi off"
+    	os.system(command)
+
     conn.close()
 
 s.close()
