@@ -37,6 +37,18 @@ while True:
     elif data.lower() == "restart" or data.lower() == "reboot":
     	command = "reboot"
     	os.system(command)
+    elif data.lower() == "mute":
+    	command = "amixer -q -D pulse sset Master mute"
+    	os.system(command)
+    elif data.lower() == "unmute":
+    	command = "amixer -q -D pulse sset Master unmute"
+    	os.system(command)
+    elif data.lower() == "increase volume":
+    	command = "amixer -q -D pulse sset Master 10%+"
+    	os.system(command)
+    elif data.lower() == "decrease volume":
+    	command = "amixer -q -D pulse sset Master 10%-"
+    	os.system(command)
 
     conn.close()
 

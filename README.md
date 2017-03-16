@@ -18,6 +18,10 @@ For example, to open firefox browser, say "open Firefox"
 * turn off wifi<br />
 * shutdown  or  shut down<br />
 * restart  or  reboot<br />
+* increase volume<br />
+* decrease volume<br />
+* mute<br />
+* unmute<br />
 
 **Note: Tested on Ubuntu 12.04 LTS**
 
