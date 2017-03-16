@@ -4,8 +4,18 @@ App to control Ubuntu computer with your Android phone
 
 # Usage
 
+Step 1: Run the Python script.<br />
+Step 2: Open app.<br />
+Step 3: Control.<br />
+<br />
 To open something, say "open something"<br />
 For example, to open firefox browser, say "open Firefox"
+
+# Commands
+
+* open \<package-name\><br />
+* turn on wifi<br />
+* turn off wifi<br />
 
 # License
 
